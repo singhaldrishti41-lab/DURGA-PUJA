@@ -1,0 +1,9 @@
+ body { margin: 0; height: 100vh; display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #ffecd2, #fcb69f); font-family: 'Segoe UI', sans-serif; }
+.card { background: #fff8e7; border: 4px solid #d62828; border-radius: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.2); text-align: center; padding: 2rem; max-width: 400px; position: relative; overflow: hidden; } 
+.card h1 { color: #d62828; font-size: 2rem; margin-bottom: 0.5rem; } 
+
+.card p { font-size: 1.1rem; color: #333; } 
+.durga-eyes { font-size: 3rem; color: #f77f00; margin-bottom: 1rem; animation: glow 1.5s infinite alternate; } 
+@keyframes glow { from { text-shadow: 0 0 5px #ffba08; } to { text-shadow: 0 0 20px #faa307; } }
+.btns { margin-top: 1rem; } .btns button { background: #d62828; color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 8px; margin: 0.3rem; cursor: pointer; transition: background 0.3s; } 
+.btns button:hover { background: #9d0208; }
